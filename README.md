@@ -1,6 +1,6 @@
 # npmtest-html-looks-like
 
-#### basic test coverage for  html-looks-like (v1.0.2)  [![npm package](https://img.shields.io/npm/v/npmtest-html-looks-like.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-looks-like) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-looks-like.svg)](https://travis-ci.org/npmtest/node-npmtest-html-looks-like)
+#### basic test-coverage for  [html-looks-like (v1.0.2)](https://github.com/staltz/html-looks-like#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-html-looks-like.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-html-looks-like) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-html-looks-like.svg)](https://travis-ci.org/npmtest/node-npmtest-html-looks-like)
 
 #### Assert that an HTML string looks approximately the same as another HTML
 
@@ -35,17 +35,12 @@
 ```json
 
 {
-    "name": "html-looks-like",
-    "version": "1.0.2",
-    "description": "Assert that an HTML string looks approximately the same as another HTML",
-    "main": "lib/index.js",
-    "typings": "lib/index.d.ts",
-    "author": "Andre Staltz",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/staltz/html-looks-like.git"
+    "author": {
+        "name": "Andre Staltz"
     },
-    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/staltz/html-looks-like/issues"
+    },
     "dependencies": {
         "@types/jsdom": "^2.0.30",
         "@types/mocha": "^2.2.39",
@@ -58,12 +53,40 @@
         "tslint": "^4.5.1",
         "typescript": "^2.2.1"
     },
+    "description": "Assert that an HTML string looks approximately the same as another HTML",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "dc636c8af62fd45e539dc398a8ef7d01caea7e05",
+        "tarball": "https://registry.npmjs.org/html-looks-like/-/html-looks-like-1.0.2.tgz"
+    },
+    "gitHead": "15d46818d856494e6955d0b0924697980b1ba531",
+    "homepage": "https://github.com/staltz/html-looks-like#readme",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "maintainers": [
+        {
+            "name": "cycle"
+        },
+        {
+            "name": "staltz"
+        }
+    ],
+    "name": "html-looks-like",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/staltz/html-looks-like.git"
+    },
     "scripts": {
         "compile": "tsc",
         "lint": "tslint -c tslint.json src/**/*.ts src/*.ts",
         "mocha": "mocha test/*.ts test/**/*.ts --require ts-node/register",
         "test": "npm run lint && npm run mocha"
-    }
+    },
+    "typings": "lib/index.d.ts",
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
